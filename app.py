@@ -12,12 +12,7 @@ x = sp.symbols("x")
 
 try:
     Answer = sp.diff(expr)
-    my_bar = st.progress(0)
-
-    for something in range(100):
-        time.sleep(0.1)
-        my_bar += st.progress(0)
-    st.text(Answer)
+    Answer
 except:
     pass
 
