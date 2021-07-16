@@ -17,7 +17,7 @@ try:
     for something in range(100):
         time.sleep(0.1)
         my_bar += st.progress(0)
-    Answer
+    st.text(Answer)
 except:
     pass
 
