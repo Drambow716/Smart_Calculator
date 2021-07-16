@@ -1,2 +1,2 @@
-pip install --upgrade pip
+-m pip install --upgrade pip'
 py -m pip install sympy
