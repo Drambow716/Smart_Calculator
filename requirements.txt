@@ -1,2 +1,2 @@
--m pip install --upgrade pip'
-py -m pip install sympy
+streamlit == 0.84.1
+sympy == 1.8
